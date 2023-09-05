@@ -1,0 +1,15 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+  min-height: 700px;
+}
+
+#section-login {
+  height: 100%;
+  width: 400px;
+  border-radius: 10px;
+  border: 1px solid #000;
+  padding: 10px 20px;
+}

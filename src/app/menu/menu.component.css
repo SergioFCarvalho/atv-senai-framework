@@ -1,0 +1,21 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+span {
+  font-size: 15px;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+span:hover {
+  font-family: monospace;
+}
+
+img {
+  border-radius: 35px;
+  width: 45px;
+  height: 45px;
+}
