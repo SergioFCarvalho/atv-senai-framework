@@ -1,0 +1,46 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "produto": "Battlefield V",
+      "descricao": "Jogo de Guerra",
+      "foto": "jogo1.png",
+      "preco": 250
+    },
+    {
+      "id": 2,
+      "produto": "Super Mario World",
+      "descricao": "Jogo de Ação, plataforma",
+      "foto": "jogo2.png",
+      "preco": 180
+    },
+    {
+      "id": 3,
+      "produto": "GTA V",
+      "descricao": "Jogo em mundo aberto aclamado pela crítica",
+      "foto": "jogo3.png",
+      "preco": 220
+    },
+    {
+      "id": 4,
+      "produto": "Mortal Kombat",
+      "descricao": "Jogo de Luta",
+      "foto": "jogo4.jpg",
+      "preco": 175
+    },
+    {
+      "id": 5,
+      "produto": "Forza Motorsport",
+      "descricao": "Jogo de Corrida",
+      "foto": "jogo5.jpg",
+      "preco": 165
+    },
+    {
+      "id": 6,
+      "produto": "Diablo 3",
+      "descricao": "Rpg de ação",
+      "foto": "jogo6.jpg",
+      "preco": 65
+    }
+  ]
+}

@@ -51,58 +51,22 @@
 
   <h2>Jogos em Promoção</h2>
   <mat-grid-list cols="3">
-    <mat-grid-tile>
+    <mat-grid-tile *ngFor="let produto of produtos">
       <mat-card class="example-card">
         <img
           mat-card-image
-          src="./assets/img/jogo1.png"
+          src="./assets/img/{{ produto.foto }}"
           alt="jogo battlefield 5"
         />
         <mat-card-header>
-          <mat-card-title>Battlefield V</mat-card-title>
+          <mat-card-title>{{ produto.produto }}</mat-card-title>
         </mat-card-header>
 
         <mat-card-content>
-          <p>Jogo de Guerra</p>
+          <p>{{ produto.descricao }}</p>
         </mat-card-content>
         <mat-card-actions>
-          <p>R$ 250,00</p>
-          <button mat-button>Comprar</button>
-        </mat-card-actions>
-      </mat-card>
-    </mat-grid-tile>
-
-    <mat-grid-tile>
-      <mat-card class="example-card">
-        <img mat-card-image src="./assets/img/jogo2.png" alt="Photo" />
-        <mat-card-header>
-          <mat-card-title>Super Mario World</mat-card-title>
-        </mat-card-header>
-        <mat-card-content>
-          <p>Jogo de Ação, plataforma</p>
-        </mat-card-content>
-        <mat-card-actions>
-          <p>R$ 200,00</p>
-          <button mat-button>Comprar</button>
-        </mat-card-actions>
-      </mat-card>
-    </mat-grid-tile>
-
-    <mat-grid-tile>
-      <mat-card class="example-card">
-        <img
-          mat-card-image
-          src="./assets/img/jogo3.png"
-          alt="Capa jogo GTA V"
-        />
-        <mat-card-header>
-          <mat-card-title>GTA V</mat-card-title>
-        </mat-card-header>
-        <mat-card-content>
-          <p>Jogo em mundo aberto aclamado pela crítica</p>
-        </mat-card-content>
-        <mat-card-actions>
-          <p>R$ 220,00</p>
+          <p>{{ produto.preco | currency : "BRL" }}</p>
           <button mat-button>Comprar</button>
         </mat-card-actions>
       </mat-card>
